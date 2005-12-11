@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="208"
+   name=""
+   committed-date="2005-12-10T20:07:51.617827Z"
+   url="file:///var/local/svn/repos/trunk/Class-Hook"
+   last-author="pierre"
+   kind="dir"
+   revision="208"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="208"
+   name="MANIFEST"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="61e180341977220f047bfd11d5ed210d"
+   last-author="pierre"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="Makefile.PL"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="0a576ce60559794ae9c0e49295d6af9c"
+   last-author="pierre"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="ChangeLog"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="a734540d3ef9cbbc5458631cc082f824"
+   last-author="pierre"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="test.pl"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="4168d9297ea64cbcaef65d806fce1b30"
+   last-author="pierre"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="README"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="b65b999c2c6fb490183943319dfd5b86"
+   last-author="pierre"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="FOO.pm"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="11a362b8111c818337e13db51bc3a4c1"
+   last-author="pierre"
+   kind="file"/>
+</wc-entries>

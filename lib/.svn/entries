@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="208"
+   name=""
+   committed-date="2005-12-10T20:07:51.617827Z"
+   url="file:///var/local/svn/repos/trunk/Class-Hook/lib"
+   last-author="pierre"
+   kind="dir"
+   revision="208"/>
+<entry
+   name="Class"
+   kind="dir"/>
+</wc-entries>

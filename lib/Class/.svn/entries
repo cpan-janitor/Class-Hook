@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="208"
+   name=""
+   committed-date="2005-12-10T20:07:51.617827Z"
+   url="file:///var/local/svn/repos/trunk/Class-Hook/lib/Class"
+   last-author="pierre"
+   kind="dir"
+   revision="208"/>
+<entry
+   committed-rev="208"
+   name="Hook.pm"
+   text-time="2005-12-10T20:05:18.000000Z"
+   committed-date="2005-12-10T20:07:51.617827Z"
+   checksum="d534e4dce21253da9fa6c2486f0dda24"
+   last-author="pierre"
+   kind="file"/>
+</wc-entries>
