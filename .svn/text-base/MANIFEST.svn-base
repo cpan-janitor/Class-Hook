@@ -1,7 +1,0 @@
-MANIFEST
-Makefile.PL
-README
-lib/Class/Hook.pm
-test.pl
-FOO.pm
-ChangeLog

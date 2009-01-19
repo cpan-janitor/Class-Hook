@@ -5,3 +5,4 @@ lib/Class/Hook.pm
 test.pl
 FOO.pm
 ChangeLog
+META.yml                                 Module meta-data (added by MakeMaker)

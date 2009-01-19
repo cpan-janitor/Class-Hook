@@ -1,5 +1,0 @@
-Sat Dec 10 2005 PST  Pierre Denis <pierre@itrelease.net>
-
-    Version 0.02
-
-        Fixed Makefile.PL to not install FOO.pm - Thanks JONASBN

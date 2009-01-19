@@ -41,7 +41,7 @@ use warnings::register;
 use Carp;
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 local *autoload = *UNIVERSAL::AUTOLOAD;
 our $before = \&_default_before;

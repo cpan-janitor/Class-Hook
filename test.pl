@@ -127,6 +127,8 @@ ok( ($after->{class} eq CLASS)
 
 BAR->mlk(); # Doesn't exist
 
+Class::Hook->deactivate;
+
 sub before {
 	$before = shift;
 	#print "Before: ".Dumper($before);

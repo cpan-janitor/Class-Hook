@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name:                Class-Hook
+version:             0.03
+abstract:            Add hooks on methods from other classes
+license:             ~
+author:              
+    - Pierre Denis <pierre@itrelease.net>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Test::Simple:                  0.01
+    Time::HiRes:                   0.01
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
