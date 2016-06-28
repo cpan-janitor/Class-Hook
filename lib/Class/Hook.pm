@@ -35,13 +35,14 @@ you can trace everything between your code and Foo.
 =cut
 
 package Class::Hook;
+
+use 5.006;
 use strict;
+use warnings;
 use Time::HiRes;
 use warnings::register;
 use Carp;
 
-
-our $VERSION = '0.03';
 
 local *autoload = *UNIVERSAL::AUTOLOAD;
 our $before = \&_default_before;
