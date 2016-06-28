@@ -1,5 +1,0 @@
-0.03 - Sun Jan 18 21:50:00 2009 PST
-  - rt #5413: Fix core dump on RH9
-
-0.02 - Sat Dec 10 12:00:00 2005 PST
-  - Fixed Makefile.PL to not install FOO.pm - Thanks JONASBN
