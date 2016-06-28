@@ -2,6 +2,8 @@ Revision history for CPAN module Class::Hook
 
 0.04 2016-06-28 NEILB
     - Changed ChangeLog to Changes, and updated format to CPAN::Changes::Spec
+    - Switched to Dist::Zilla
+    - Moved test.pl to t/original.t and moved FOO.pm to t/lib/FOO.pm
 
 0.03 2009-01-19 PDENIS
     - rt #5413: Fix core dump on RH9

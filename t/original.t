@@ -10,7 +10,7 @@
 
 use strict;
 use warnings;
-use lib qw(./lib);
+use lib 't/lib';
 use Test::Simple tests => 11;
 use Class::Hook;
 use constant CLASS => 'FOO';
