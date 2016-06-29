@@ -1,5 +1,10 @@
 Revision history for CPAN module Class::Hook
 
+0.04 2016-06-29 NEILB
+    - Class::Hook evals some code into UNIVERSAL::, so did the usual
+      trick to hide the package line from PAUSE, to prevent warning
+      about not having permissions on the package.
+
 0.04 2016-06-28 NEILB
     - Changed ChangeLog to Changes, and updated format to CPAN::Changes::Spec
     - Switched to Dist::Zilla

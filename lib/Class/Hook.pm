@@ -142,7 +142,9 @@ package.
 =cut
 sub activate {
         eval q{
-                package UNIVERSAL;
+                # hide the package line from PAUSE
+                package
+                    UNIVERSAL;
                 use Carp;
                 use Data::Dumper;
                 our $AUTOLOAD;
