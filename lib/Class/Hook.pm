@@ -19,18 +19,18 @@ Class::Hook - Add hooks on methods from other classes
 
 =head1 DESCRIPTION
 
-Class::Hook enables you to trace methods calls from your code to other
-classes.
+Class::Hook enables you to trace methods calls from your code to other classes.
 
-Instead of putting 'use Foo;' in your code, simply type 'use
-Class::Hook;'.  The class Foo is unknown in your code.  It will be
-magically catched by Class::Hook which will call Foo itself. You can
-see Class::Hook as a kind of relay.
+Instead of putting 'use Foo;' in your code,
+simply type 'use Class::Hook;'.
+The class Foo is unknown in your code.
+It will be magically caught by Class::Hook which will call Foo itself.
+You can see Class::Hook as a kind of relay.
 
 You can setup a subroutine to be called before any call to
-Foo->amethod and a subroutine to be called after the call. Your subs
-will receive all the information that Foo->amethod will receive, so
-you can trace everything between your code and Foo.
+C<<Foo->amethod>> and a subroutine to be called after the call. Your subs
+will receive all the information that C<<Foo->amethod>> will receive,
+so you can trace everything between your code and Foo.
 
 =cut
 
@@ -277,15 +277,16 @@ sub _default_after {
 
 =head1 CAVEATS
 
-It works only with method calls, not with subroutines
-calls. Foo->method will work Foo::method will NOT work
-UNIVSERAL::AUTOLOAD is overriden after Class::Hook->activate() has
+It works only with method calls, not with subroutine calls.
+Foo->method will work Foo::method will NOT work.
+UNIVERSAL::AUTOLOAD is overriden after Class::Hook->activate() has
 been called. Expect some strange behaviors if the module you use plays
 with it.
 
 =head1 BUGS
 
-Don't rely on it for production purpose.  Has been tested on perl
+Don't rely on it for production purpose.
+Has been tested on perl
 5.6.0 only and probably will need some update with later perl versions.
 
 =head1 AUTHOR
